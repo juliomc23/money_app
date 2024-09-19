@@ -1,0 +1,13 @@
+::ng-deep.p-sidebar-header {
+  padding: 0.5rem 0.5rem 0.8rem 0.3rem;
+}
+
+::ng-deep.p-sidebar-footer {
+  padding: 0 0 1.5rem 0.5rem;
+}
+
+.toggle-sidebar {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}

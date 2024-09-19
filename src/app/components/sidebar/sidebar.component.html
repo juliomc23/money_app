@@ -1,0 +1,14 @@
+<p-sidebar [(visible)]="sidebarVisible" position="right">
+  <app-navbar />
+  <ng-template pTemplate="footer">
+    <app-profile-avatar />
+  </ng-template>
+</p-sidebar>
+<p-button
+  icon="pi pi-bars"
+  [rounded]="true"
+  (onClick)="sidebarVisible = true"
+  severity="contrast"
+  size="large"
+  class="toggle-sidebar"
+/>
